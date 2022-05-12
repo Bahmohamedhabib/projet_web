@@ -1,0 +1,16 @@
+{% extends 'Employer/base.html' %}
+
+
+{% block content %}
+    <p>w'ill show django to implement crud operations</p>
+    <form action="" method="POST" autocomplete="off">
+        {% csrf_token %}
+        {{form}}
+
+
+        <br>
+        <br>
+        <button type="submit" class="btn btn-success">submit</button>
+    </form>
+    
+{% endblock content %}
